@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ns
+  labels:
+    app: dev
+spec:
+  containers:
+   - name: nsp
+     image: httpd
